@@ -1,5 +1,18 @@
 # Liftoscript Language Core
 
+## Contents
+
+- Scope
+- Strict syntax pattern (canonical)
+- Exercise line model
+- Set expressions
+- Intensity and load
+- Best practice: grouped load/timer for set variations
+- Timing
+- Units
+- Split long lines
+- Primitive checklist
+
 ## Scope
 
 Use this file for core exercise-line syntax and set expressions.

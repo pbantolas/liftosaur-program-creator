@@ -1,51 +1,28 @@
 ---
 name: liftosaur-program-creator
-description: Writes and edits workout programs for the Liftosaur app using Liftoscript language. Use when creating programs, adding exercises, configuring progression logic, writing progress/update scripts, or debugging Liftoscript code.
+description: Creates and edits Liftosaur workout programs using Liftoscript. Use for program authoring, exercise/set changes, progression setup (lp/dp/sum/custom), advanced custom progression logic, custom progress/update script debugging, and reuse/template refactors.
 ---
 
 # Liftoscript Program Authoring
 
-Use this skill for Liftosaur program text and Liftoscript logic.
+## Output contract
 
-## Canonical formatting contract
-
-- Default to slash-style exercise format in outputs:
-  - `Exercise Name / set expressions / section: value / section: value`
+- Default to slash-style format for new lines: `Exercise Name / set expressions / section: value / section: value`.
 - Keep one separator style per line; do not mix slash and freeform section placement.
-- Prefer explicit section names for non-set data (`progress:`, `update:`, `warmup:`, `superset:`, `used:`, `id:`).
-- If editing existing text that uses another style, preserve local style unless user asks to normalize.
-
-## When to use
-
-- User asks to write or edit Liftosaur workout program lines.
-- User asks for progression logic (`lp`, `dp`, `sum`, or `custom()`).
-- User asks to remove repetition via reuse (`...Exercise`) or templates.
-- User asks to debug `progress: custom()` or `update: custom()` behavior.
+- Preserve existing local style when editing unless the user asks to normalize.
+- Use explicit section names for non-set data (`progress:`, `update:`, `warmup:`, `superset:`, `used:`, `id:`).
 
 ## Operating rules
 
 - Keep terminology consistent: use "exercise line", "set", "progress", "update", "state variable", "set variation".
 - Prefer built-in progression (`lp`, `dp`, `sum`) before custom scripts.
 - For scripting tasks, identify execution context first: `progress: custom()` vs `update: custom()`.
-- Timer literals by context:
-  - Exercise-line sets use timer suffixes like `45s`, `120s`.
-  - Scripts use numeric timer values (for example `timers[5] = 20`, not `20s`).
-  - Timed reps are not supported in set syntax (avoid `3x60s`); use `3x60` as workaround.
-- Set-variation authoring best practice:
-  - Prefer grouped shared load/timer after set variations to reduce repetition.
-  - Example: `OHP_T2: Overhead Press / 4x12 / 4x10 / 4x8 / 60% 120s / progress: ...`
-  - Interpret grouped `60% 120s` as applying to all listed set variations.
-- Unit resolution policy:
-  - Reuse units from nearby program text when present.
-  - Else use explicit user preference from conversation.
-  - Else default to `kg`.
-  - Do not silently mix `kg` and `lb` in the same generated snippet.
-- Exercise naming policy:
-  - Prefer canonical exercise/equipment names from `resources/exercise-list.txt`.
-  - Use exact `Exercise, Equipment` naming when a match exists.
-  - If no match exists, it is still valid to use a custom exercise name.
-  - Note in output that unmatched exercises can be added manually in Liftosaur.
-- Use a validation loop: draft -> check writable variables/scope/indexing -> correct -> finalize.
+- Use timer literals by context: `45s`/`120s` in exercise-line sets, numeric timers in scripts (`timers[5] = 20`).
+- Reject timed rep tokens in set syntax (`3x60s`); use numeric reps (`3x60`) when needed.
+- Resolve units deterministically: nearby program text -> explicit user preference -> default `kg`.
+- Do not silently mix `kg` and `lb` in one generated snippet.
+- Prefer canonical exercise names from `resources/exercise-list.txt`; if unmatched, keep custom name and note manual add path in Liftosaur.
+- Apply a validation loop: draft -> verify writable variables/scope/indexing -> correct -> finalize.
 - Preserve user intent and existing structure; change only what is required.
 
 ## Routing by task
@@ -65,15 +42,17 @@ Use this skill for Liftosaur program text and Liftoscript logic.
 ## Minimal workflow
 
 1. Classify request: syntax, progression, reuse, custom script, or debug.
-2. Read only the needed reference file(s) above.
-3. Produce the smallest correct change.
-4. Validate constraints (especially writable variables and index scope).
-5. Return final program/script text and a short rationale.
+2. Identify mode before drafting: edit existing text vs generate new text; for scripts, choose `progress` vs `update` context.
+3. Resolve units before drafting: nearby text -> user preference -> `kg`.
+4. Read only the minimum references required (target 1-2 files from routing list).
+5. Produce the smallest correct change.
+6. Validate constraints (especially writable variables and index scope).
+7. Return final program/script text and a short rationale.
 
 ## Preflight validator (must pass before final output)
 
 - Section separators are correct and consistent for each exercise line.
-- Set and set-variation syntax is structurally valid.
+- Set and set-variation syntax is structurally valid (including grouped load/timer behavior when used).
 - Script assignments target writable variables for the selected context.
 - Script assignment literals use valid types for the target variable.
 - Timer literals follow context rules (`45s` in exercise text, numeric in scripts).
