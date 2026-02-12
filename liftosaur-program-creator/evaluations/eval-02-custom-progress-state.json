@@ -1,0 +1,10 @@
+{
+  "skills": ["authoring-liftoscript-programs"],
+  "query": "Write a custom progression for squat that increases weight by 10lb after 3 successful workouts, then resets the attempt counter.",
+  "expected_behavior": [
+    "Uses progress: custom(...) with a persistent state variable for attempt counting",
+    "Checks completion using completedReps >= reps or equivalent explicit condition",
+    "Increments weights only on threshold and resets state deterministically",
+    "Avoids illegal writes for the chosen context"
+  ]
+}

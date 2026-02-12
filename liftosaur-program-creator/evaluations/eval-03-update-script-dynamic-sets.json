@@ -1,0 +1,10 @@
+{
+  "skills": ["authoring-liftoscript-programs"],
+  "query": "Add an update script that adds two extra sets if set 1 is completed successfully, and sets those extra sets to half the reps of set 1.",
+  "expected_behavior": [
+    "Uses update: custom() and gates logic on setIndex",
+    "Mutates numberOfSets and/or sets() in legal update context",
+    "Does not attempt cross-week/day writes in update context",
+    "Uses floor or equivalent for half-rep calculation"
+  ]
+}
