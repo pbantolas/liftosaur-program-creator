@@ -12,22 +12,20 @@ This skill gives AI agents deep knowledge of Liftoscript syntax, progression pat
 
 ## Quickstart
 
-### For Claude Code users
+### Using skills.sh (recommended)
+Install this skill with a single command:
 
-1. Clone this repository
-2. Open the `liftosaur-program-creator` directory in Claude Code
-3. Start asking questions:
+```bash
+npx skills add https://github.com/pbantolas/liftosaur-program-creator --skill liftosaur-program-creator
+```
 
+For more information, [visit the skills.sh platform page](https://skills.sh/pbantolas/liftosaur-program-creator/liftosaur-program-creator).
+
+Then use the skill in your AI agent, for example:
 ```
 Create a 5x5 program with squats, bench, and deadlift using linear progression.
 Add 2.5kg each session if I complete all reps.
 ```
-
-### For other AI agents
-
-Point your AI agent to this skill directory and it will have access to all the Liftoscript reference documentation. Most agents will automatically understand how to use the skill definition and references.
-
-Supported: Claude (via API or chat), Codex, Opencode, and other coding agents with skill support.
 
 ## What you can build
 
