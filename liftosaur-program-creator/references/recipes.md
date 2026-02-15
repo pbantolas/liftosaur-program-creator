@@ -26,7 +26,7 @@ Example pattern:
 - `Squat[1-4] / ...t1`
 - `Bench Press[1-4] / ...t1`
 
-## Recipe: compact set variations with shared TM % and timer
+## Recipe: compact set variations with shared 1RM % and timer
 
 1. List each set variation as its own slash block.
 2. Add one shared percent and timer block after variations.

@@ -64,7 +64,7 @@ If a requested exercise is not in the list, custom naming is still valid.
 
 - RPE target: `3x12@8`
 - Log RPE after set: `1x5+@8+`
-- Percent-based load: `3x12 80%` (often used as TM-based percentage in program design)
+- Percent-based load: `3x12 80%` (`%` in exercise lines means percent of 1RM, not training max)
 - Absolute load: `3x12 60kg` or `3x12 135lb`
 - Ask performed weight: `100lb+` or `70%+`
 
@@ -81,7 +81,7 @@ Interpretation:
 - `4x12`, `4x10`, and `4x8` are set variations.
 - `60% 120s` is shared and applies to all listed variations.
 
-This is preferred because it keeps workouts compact and makes TM-percentage programming easier to maintain.
+This is preferred because it keeps workouts compact and makes 1RM-percentage programming easier to maintain.
 
 ## Timing
 

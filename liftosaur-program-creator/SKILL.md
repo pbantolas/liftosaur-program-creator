@@ -21,6 +21,7 @@ description: Creates and edits Liftosaur workout programs using Liftoscript. Use
 - Reject timed rep tokens in set syntax (`3x60s`); use numeric reps (`3x60`) when needed.
 - Resolve units deterministically: nearby program text -> explicit user preference -> default `kg`.
 - Do not silently mix `kg` and `lb` in one generated snippet.
+- In exercise-line set syntax, `%` load tokens are percentages of `1RM` (not training max).
 - Resolve exercise naming from `references/exercise-name-resolution.md` against `references/exercise-list.md`.
 - In full mode, place template lines (`used: none`) inside a day block; for week-level templates, anchor after `## Day 1`, not directly after `# Week N`.
 - Apply a validation loop: draft -> verify writable variables/scope/indexing -> correct -> finalize.
@@ -58,6 +59,7 @@ description: Creates and edits Liftosaur workout programs using Liftoscript. Use
 - Script assignment literals use valid types for the target variable.
 - Timer literals follow context rules (`45s` in exercise text, numeric in scripts).
 - Rep tokens are numeric counts (no `s` suffix on reps; use `3x60`, not `3x60s`).
+- Percent load tokens in exercise-line set syntax are interpreted as `% of 1RM`.
 - Units are resolved from context/user preference or defaulted to `kg`.
 - No forbidden unit mismatches in generated output.
 - Exercise naming resolves against `references/exercise-list.md` (bare `Exercise Name` or explicit `Exercise Name, Equipment`).
