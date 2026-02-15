@@ -1,5 +1,5 @@
 {
-  "skills": ["authoring-liftoscript-programs"],
+  "skills": ["liftosaur-program-creator"],
   "query": "Create a 4-week bench press progression with built-in progression only, no custom script. Use double progression from 8 to 12 reps and 5lb increases.",
   "expected_behavior": [
     "Uses Liftosaur exercise-line syntax with valid sets and progression sections",

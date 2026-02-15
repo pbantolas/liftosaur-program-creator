@@ -1,28 +1,34 @@
-Ab Wheel, Bodyweight
-Arnold Press, Dumbbell
+# Built-in Exercises
+
+Use exact line values from this list when resolving exercise names.
+
+Entries are either `Exercise Name` or `Exercise Name, Equipment`.
+
+Ab Wheel
+Arnold Press
 Arnold Press, Kettlebell
-Around The World, Dumbbell
+Around The World
 Back Extension, Bodyweight
-Back Extension, Leverage Machine
-Ball Slams, Medicine Ball
-Battle Ropes, Bodyweight
-Behind The Neck Press, Barbell
+Back Extension
+Ball Slams
+Battle Ropes
+Behind The Neck Press
 Behind The Neck Press, Smith Machine
 Behind The Neck Press, Band
-Bench Dip, Bodyweight
-Bench Press, Barbell
+Bench Dip
+Bench Press
 Bench Press, Cable
 Bench Press, Dumbbell
 Bench Press, Smith Machine
 Bench Press, Band
 Bench Press, Kettlebell
-Bench Press Close Grip, Barbell
+Bench Press Close Grip
 Bench Press Close Grip, Smith Machine
 Bench Press Close Grip, EZ Bar
-Bench Press Wide Grip, Barbell
+Bench Press Wide Grip
 Bench Press Wide Grip, Smith Machine
-Bent Over One Arm Row, Dumbbell
-Bent Over Row, Barbell
+Bent Over One Arm Row
+Bent Over Row
 Bent Over Row, Cable
 Bent Over Row, Dumbbell
 Bent Over Row, Smith Machine
@@ -30,304 +36,304 @@ Bent Over Row, Band
 Bent Over Row, Leverage Machine
 Bicep Curl, Barbell
 Bicep Curl, Cable
-Bicep Curl, Dumbbell
+Bicep Curl
 Bicep Curl, Band
 Bicep Curl, Leverage Machine
 Bicep Curl, EZ Bar
-Bicycle Crunch, Bodyweight
-Box Squat, Barbell
+Bicycle Crunch
+Box Squat
 Box Squat, Dumbbell
-Bulgarian Split Squat, Dumbbell
-Cable Crossover, Cable
-Cable Crunch, Cable
-Cable Kickback, Cable
-Cable Pull Through, Cable
+Bulgarian Split Squat
+Cable Crossover
+Cable Crunch
+Cable Kickback
+Cable Pull Through
 Cable Twist, Barbell
-Cable Twist, Cable
+Cable Twist
 Cable Twist, Band
 Cable Twist, Bodyweight
 Cable Twist, Leverage Machine
-Calf Press on Leg Press, Leverage Machine
-Calf Press on Seated Leg Press, Leverage Machine
-Chest Dip, Bodyweight
+Calf Press on Leg Press
+Calf Press on Seated Leg Press
+Chest Dip
 Chest Fly, Barbell
 Chest Fly, Cable
-Chest Fly, Dumbbell
+Chest Fly
 Chest Fly, Leverage Machine
 Chest Press, Band
 Chest Press, Leverage Machine
-Chin Up, Bodyweight
+Chin Up
 Chin Up, Leverage Machine
-Clean, Barbell
-Clean and Jerk, Barbell
+Clean
+Clean and Jerk
 Concentration Curl, Barbell
 Concentration Curl, Cable
-Concentration Curl, Dumbbell
+Concentration Curl
 Concentration Curl, Band
-Cross Body Crunch, Bodyweight
+Cross Body Crunch
 Crunch, Cable
-Crunch, Bodyweight
+Crunch
 Crunch, Leverage Machine
-Deadlift, Barbell
+Deadlift
 Deadlift, Cable
 Deadlift, Dumbbell
 Deadlift, Smith Machine
 Deadlift, Band
 Deadlift, Kettlebell
 Deadlift, Leverage Machine
-Deadlift High Pull, Barbell
+Deadlift High Pull
 Decline Bench Press, Dumbbell
 Decline Bench Press, Smith Machine
-Deficit Deadlift, Barbell
+Deficit Deadlift
 Deficit Deadlift, Trap Bar
-Elliptical Machine, Leverage Machine
-Face Pull, Band
-Flat Knee Raise, Bodyweight
-Flat Leg Raise, Bodyweight
+Elliptical Machine
+Face Pull
+Flat Knee Raise
+Flat Leg Raise
 Front Raise, Barbell
 Front Raise, Cable
-Front Raise, Dumbbell
+Front Raise
 Front Raise, Band
 Front Raise, Bodyweight
-Front Squat, Barbell
+Front Squat
 Front Squat, Cable
 Front Squat, Dumbbell
 Front Squat, Smith Machine
 Front Squat, Kettlebell
-Glute Bridge, Barbell
-Glute Bridge, Dumbbell
-Glute Bridge, Band
-Glute Bridge March, Bodyweight
-Glute Kickback, Cable
-Glute Kickback, Band
-Goblet Squat, Dumbbell
+Goblet Squat
 Goblet Squat, Kettlebell
-Good Morning, Barbell
+Good Morning
 Good Morning, Smith Machine
 Good Morning, Leverage Machine
-Hack Squat, Barbell
+Glute Bridge, Barbell
+Glute Bridge
+Glute Bridge, Band
+Glute Bridge March
+Glute Kickback
+Glute Kickback, Band
+Hack Squat
 Hack Squat, Smith Machine
 Hammer Curl, Cable
-Hammer Curl, Dumbbell
+Hammer Curl
 Hammer Curl, Band
-Handstand Push Up, Bodyweight
+Handstand Push Up
 Hang Clean, Kettlebell
 Hanging Leg Raise, Cable
-Hanging Leg Raise, Bodyweight
+Hanging Leg Raise
 High Row, Cable
-High Row, Leverage Machine
+High Row
 Hip Abductor, Cable
 Hip Abductor, Band
 Hip Abductor, Bodyweight
-Hip Abductor, Leverage Machine
-Hip Adductor, Leverage Machine
-Hip Thrust, Barbell
+Hip Abductor
+Hip Adductor
+Hip Thrust
 Hip Thrust, Band
 Hip Thrust, Bodyweight
 Hip Thrust, Leverage Machine
-Incline Bench Press, Barbell
+Incline Bench Press
 Incline Bench Press, Cable
 Incline Bench Press, Dumbbell
 Incline Bench Press, Smith Machine
-Incline Bench Press Wide Grip, Barbell
+Incline Bench Press Wide Grip
 Incline Chest Fly, Cable
-Incline Chest Fly, Dumbbell
-Incline Chest Press, Dumbbell
+Incline Chest Fly
+Incline Chest Press
 Incline Chest Press, Band
 Incline Chest Press, Leverage Machine
-Incline Curl, Dumbbell
+Incline Curl
 Incline Row, Barbell
-Incline Row, Dumbbell
-Inverted Row, Bodyweight
-Jackknife Sit Up, Bodyweight
-Jump Squat, Barbell
+Incline Row
+Inverted Row
+Jackknife Sit Up
+Jump Squat
 Jump Squat, Bodyweight
 Kettlebell Swing, Dumbbell
-Kettlebell Swing, Kettlebell
-Kneeling Pulldown, Band
-Knees to Elbows, Bodyweight
-Lat Pulldown, Cable
+Kettlebell Swing
+Kneeling Pulldown
+Knees to Elbows
+Lat Pulldown
 Lat Pulldown, Leverage Machine
 Lateral Raise, Cable
-Lateral Raise, Dumbbell
+Lateral Raise
 Lateral Raise, Band
 Lateral Raise, Kettlebell
 Lateral Raise, Leverage Machine
+Legs Up Bench Press
 Leg Extension, Band
-Leg Extension, Leverage Machine
+Leg Extension
 Leg Press, Smith Machine
-Leg Press, Leverage Machine
-Legs Up Bench Press, Barbell
-Lunge, Barbell
+Leg Press
+Lunge
 Lunge, Cable
 Lunge, Dumbbell
 Lunge, Bodyweight
 Lying Bicep Curl, Cable
-Lying Bicep Curl, Dumbbell
+Lying Bicep Curl
 Lying Leg Curl, Band
-Lying Leg Curl, Leverage Machine
-Muscle Up, Bodyweight
-Oblique Crunch, Bodyweight
-Overhead Press, Barbell
+Lying Leg Curl
+Muscle Up
+Oblique Crunch
+Overhead Press
 Overhead Press, Dumbbell
 Overhead Press, EZ Bar
-Overhead Squat, Barbell
+Overhead Squat
 Overhead Squat, Dumbbell
-Pec Deck, Leverage Machine
-Pendlay Row, Barbell
+Pec Deck
+Pendlay Row
 Pistol Squat, Kettlebell
-Pistol Squat, Bodyweight
+Pistol Squat
 Pistol Squat, Leverage Machine
-Plank, Bodyweight
+Plank
 Preacher Curl, Barbell
-Preacher Curl, Dumbbell
+Preacher Curl
 Preacher Curl, Leverage Machine
 Preacher Curl, EZ Bar
 Pull Up, Band
-Pull Up, Bodyweight
+Pull Up
 Pull Up, Leverage Machine
 Pullover, Barbell
-Pullover, Dumbbell
+Pullover
 Push Press, Barbell
 Push Press, Dumbbell
-Push Press, Kettlebell
+Push Press
 Push Press, Bodyweight
 Push Up, Band
-Push Up, Bodyweight
+Push Up
 Reverse Crunch, Cable
-Reverse Crunch, Bodyweight
+Reverse Crunch
 Reverse Curl, Barbell
 Reverse Curl, Cable
-Reverse Curl, Dumbbell
+Reverse Curl
 Reverse Curl, Band
-Reverse Fly, Dumbbell
+Reverse Fly
 Reverse Fly, Band
 Reverse Fly, Leverage Machine
-Reverse Hyperextension, Band
-Reverse Hyperextension, Leverage Machine
 Reverse Lunge, Barbell
-Reverse Lunge, Dumbbell
+Reverse Lunge
 Reverse Lunge, Kettlebell
 Reverse Lunge, Bodyweight
-Reverse Wrist Curl, Barbell
+Reverse Wrist Curl
 Reverse Wrist Curl, Dumbbell
 Reverse Wrist Curl, EZ Bar
 Romanian Deadlift, Barbell
-Romanian Deadlift, Dumbbell
+Romanian Deadlift
+Reverse Hyperextension
+Reverse Hyperextension, Leverage Machine
 Russian Twist, Cable
 Russian Twist, Dumbbell
-Russian Twist, Bodyweight
-Safety Squat Bar Squat, Barbell
-Seated Calf Raise, Barbell
+Russian Twist
+Safety Squat Bar Squat
+Seated Calf Raise
 Seated Calf Raise, Dumbbell
 Seated Calf Raise, Leverage Machine
 Seated Front Raise, Barbell
-Seated Front Raise, Dumbbell
-Seated Leg Curl, Leverage Machine
-Seated Leg Press, Leverage Machine
-Seated Overhead Press, Barbell
-Seated Palms Up Wrist Curl, Dumbbell
-Seated Row, Cable
+Seated Front Raise
+Seated Leg Curl
+Seated Leg Press
+Seated Overhead Press
+Seated Palms Up Wrist Curl
+Seated Row
 Seated Row, Band
 Seated Row, Leverage Machine
-Seated Wide Grip Row, Cable
+Seated Wide Grip Row
 Shoulder Press, Cable
-Shoulder Press, Dumbbell
+Shoulder Press
 Shoulder Press, Smith Machine
 Shoulder Press, Band
 Shoulder Press, Leverage Machine
-Shoulder Press Parallel Grip, Dumbbell
+Shoulder Press Parallel Grip
 Shrug, Barbell
 Shrug, Cable
-Shrug, Dumbbell
+Shrug
 Shrug, Smith Machine
 Shrug, Band
 Shrug, Leverage Machine
 Side Bend, Cable
-Side Bend, Dumbbell
+Side Bend
 Side Bend, Band
 Side Crunch, Cable
 Side Crunch, Band
-Side Crunch, Bodyweight
+Side Crunch
 Side Hip Abductor, Barbell
-Side Hip Abductor, Bodyweight
+Side Hip Abductor
 Side Hip Abductor, Leverage Machine
-Side Lying Clam, Bodyweight
-Side Plank, Bodyweight
-Single Leg Bridge, Bodyweight
-Single Leg Deadlift, Dumbbell
+Side Lying Clam
+Side Plank
+Single Leg Bridge
+Single Leg Deadlift
 Single Leg Deadlift, Bodyweight
-Single Leg Glute Bridge Bent Knee, Bodyweight
-Single Leg Glute Bridge On Bench, Bodyweight
-Single Leg Glute Bridge Straight Leg, Bodyweight
+Single Leg Glute Bridge On Bench
+Single Leg Glute Bridge Straight Leg
+Single Leg Glute Bridge Bent Knee
 Single Leg Hip Thrust, Barbell
-Single Leg Hip Thrust, Bodyweight
+Single Leg Hip Thrust
 Single Leg Hip Thrust, Leverage Machine
-Sissy Squat, Bodyweight
+Sissy Squat
 Sit Up, Kettlebell
-Sit Up, Bodyweight
+Sit Up
 Skullcrusher, Barbell
 Skullcrusher, Cable
 Skullcrusher, Dumbbell
-Skullcrusher, EZ Bar
-Snatch, Dumbbell
+Skullcrusher
+Snatch
 Split Squat, Barbell
-Split Squat, Dumbbell
+Split Squat
 Split Squat, Band
 Split Squat, Kettlebell
 Split Squat, Bodyweight
-Squat, Barbell
+Squat
 Squat, Dumbbell
 Squat, Smith Machine
 Squat, Bodyweight
 Squat, Leverage Machine
-Squat Row, Band
+Squat Row
 Standing Calf Raise, Barbell
 Standing Calf Raise, Cable
-Standing Calf Raise, Dumbbell
+Standing Calf Raise
 Standing Calf Raise, Bodyweight
 Standing Calf Raise, Leverage Machine
-Standing Row, Cable
-Standing Row Close Grip, Cable
-Standing Row Rear Delt With Rope, Cable
-Standing Row Rear Delt,  Horizontal, With Rope,Cable
-Standing Row V-Bar, Cable
+Standing Row
+Standing Row Close Grip
+Standing Row Rear Delt With Rope
+Standing Row Rear Delt, Horizontal, With Rope
+Standing Row V-Bar
 Step up, Barbell
-Step up, Dumbbell
+Step up
 Step up, Band
 Step up, Bodyweight
-Stiff Leg Deadlift, Barbell
+Stiff Leg Deadlift
 Stiff Leg Deadlift, Dumbbell
 Stiff Leg Deadlift, Band
-Straight Leg Deadlift, Barbell
+Straight Leg Deadlift
 Straight Leg Deadlift, Dumbbell
 Straight Leg Deadlift, Band
 Straight Leg Deadlift, Kettlebell
-Sumo Deadlift, Barbell
-Sumo Deadlift High Pull, Barbell
+Sumo Deadlift
+Sumo Deadlift High Pull
 Superman, Dumbbell
-Superman, Bodyweight
-T Bar Row, Leverage Machine
-Thruster, Barbell
-Toes To Bar, Bodyweight
-Trap Bar Deadlift, Trap Bar
-Triceps Dip, Bodyweight
+Superman
+T Bar Row
+Thruster
+Toes To Bar
+Trap Bar Deadlift
+Triceps Dip
 Triceps Dip, Leverage Machine
 Triceps Extension, Barbell
 Triceps Extension, Cable
-Triceps Extension, Dumbbell
+Triceps Extension
 Triceps Extension, Band
-Triceps Pushdown, Cable
+Triceps Pushdown
 Upright Row, Barbell
 Upright Row, Cable
-Upright Row, Dumbbell
+Upright Row
 Upright Row, Band
 V Up, Dumbbell
 V Up, Band
-V Up, Bodyweight
-Wide Pull Up, Bodyweight
-Wrist Curl, Barbell
+V Up
+Wide Pull Up
+Wrist Curl
 Wrist Curl, Dumbbell
 Wrist Curl, EZ Bar
-Wrist Roller, Bodyweight
-Zercher Squat, Barbell
+Wrist Roller
+Zercher Squat

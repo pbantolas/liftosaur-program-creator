@@ -4,6 +4,7 @@
 
 - Full mode uses `# Week N` and `## Day N` headings.
 - Exercises under a week/day belong to that block.
+- Template lines (`used: none`) must also live inside a day block; in full mode, place week-level templates under `## Day 1`, not directly under `# Week N`.
 
 ## Descriptions
 
@@ -48,6 +49,9 @@ Use labels when progress logic must differ by role.
 - Active set scheme is controlled by `setVariationIndex`.
 - Multiple descriptions are supported.
 - Active description is controlled by `descriptionIndex`.
+- In existing program snapshots, Liftosaur may prefix the active set variation with `!`.
+- In existing program snapshots, Liftosaur may prefix the active description with `!`.
+- Treat `!` as current-state metadata from the app; preserve it when editing existing text unless the user asks to reset/normalize state.
 - Best practice: place shared load/timer once after variation blocks when common.
 
 Example:

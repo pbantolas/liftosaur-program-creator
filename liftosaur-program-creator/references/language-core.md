@@ -46,7 +46,7 @@ Canonical model:
 
 Sections are slash-style fields such as `progress:`, `update:`, `warmup:`, `superset:`, `id:`, `used:`.
 
-Exercise identity should prefer canonical naming from `resources/exercise-list.txt` when available.
+Exercise identity should resolve from built-in names in `references/exercise-list.md` when available.
 If a requested exercise is not in the list, custom naming is still valid.
 
 ## Set expressions
@@ -57,6 +57,7 @@ If a requested exercise is not in the list, custom naming is still valid.
 - AMRAP reps: `1x5+`
 - Quick add sets: `3+x5`
 - Set label: `4x5 (Main), 1x5+ (AMRAP)`
+- Set labels are limited to 8 characters max.
 - Timed reps are not supported (`3x60s` is invalid); use numeric reps (`3x60`) as workaround.
 
 ## Intensity and load

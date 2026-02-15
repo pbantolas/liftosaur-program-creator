@@ -36,7 +36,7 @@ Use `*` for wildcard; omitted leading dimensions default to wildcard.
 ## Typical pattern
 
 ```text
-Bench Press 3x8 progress: custom(attempt: 0, increment: 5lb) {~
+Bench Press / 3x8 / progress: custom(attempt: 0, increment: 5lb) {~
   if (completedReps >= reps) {
     state.attempt += 1
     if (state.attempt > 3) {

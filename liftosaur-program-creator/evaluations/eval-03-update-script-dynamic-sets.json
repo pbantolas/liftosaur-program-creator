@@ -1,5 +1,5 @@
 {
-  "skills": ["authoring-liftoscript-programs"],
+  "skills": ["liftosaur-program-creator"],
   "query": "Add an update script that adds two extra sets if set 1 is completed successfully, and sets those extra sets to half the reps of set 1.",
   "expected_behavior": [
     "Uses update: custom() and gates logic on setIndex",

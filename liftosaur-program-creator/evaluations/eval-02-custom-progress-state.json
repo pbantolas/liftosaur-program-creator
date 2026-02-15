@@ -1,5 +1,5 @@
 {
-  "skills": ["authoring-liftoscript-programs"],
+  "skills": ["liftosaur-program-creator"],
   "query": "Write a custom progression for squat that increases weight by 10lb after 3 successful workouts, then resets the attempt counter.",
   "expected_behavior": [
     "Uses progress: custom(...) with a persistent state variable for attempt counting",

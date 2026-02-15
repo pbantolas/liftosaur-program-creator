@@ -72,7 +72,7 @@ Starter:
 Bench Press / 3x8 / update: custom() {~
   if (setIndex == 1 && completedReps[1] >= reps[1]) {
     numberOfSets = 5
-    sets(3, 5, floor(reps[1] / 2), floor(reps[1] / 2), 0, weights[1], 0, 0)
+    sets(3, 5, floor(reps[1] / 2), floor(reps[1] / 2), 0, weights[1], 0, 0, 0)
   }
 ~}
 ```

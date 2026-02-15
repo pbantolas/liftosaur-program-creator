@@ -21,7 +21,8 @@ description: Creates and edits Liftosaur workout programs using Liftoscript. Use
 - Reject timed rep tokens in set syntax (`3x60s`); use numeric reps (`3x60`) when needed.
 - Resolve units deterministically: nearby program text -> explicit user preference -> default `kg`.
 - Do not silently mix `kg` and `lb` in one generated snippet.
-- Prefer canonical exercise names from `resources/exercise-list.txt`; if unmatched, keep custom name and note manual add path in Liftosaur.
+- Resolve exercise naming from `references/exercise-name-resolution.md` against `references/exercise-list.md`.
+- In full mode, place template lines (`used: none`) inside a day block; for week-level templates, anchor after `## Day 1`, not directly after `# Week N`.
 - Apply a validation loop: draft -> verify writable variables/scope/indexing -> correct -> finalize.
 - Preserve user intent and existing structure; change only what is required.
 
@@ -36,7 +37,7 @@ description: Creates and edits Liftosaur workout programs using Liftoscript. Use
 - Read/write variables and indexing rules -> `references/runtime-reference.md`
 - Liftoscript built-in functions -> `references/builtins-reference.md`
 - End-to-end examples and fix patterns -> `references/recipes.md`
-- Canonical exercise name resolution -> `references/exercise-name-resolution.md`
+- Exercise name resolution -> `references/exercise-name-resolution.md`
 - Known pitfalls and quick fixes -> `references/common-failure-modes.md`
 
 ## Minimal workflow
@@ -59,5 +60,8 @@ description: Creates and edits Liftosaur workout programs using Liftoscript. Use
 - Rep tokens are numeric counts (no `s` suffix on reps; use `3x60`, not `3x60s`).
 - Units are resolved from context/user preference or defaulted to `kg`.
 - No forbidden unit mismatches in generated output.
-- Exercise name/equipment pair is canonical when available in `resources/exercise-list.txt`.
-- If exercise is not in canonical list, output remains valid and mentions manual add path in Liftosaur.
+- Exercise naming resolves against `references/exercise-list.md` (bare `Exercise Name` or explicit `Exercise Name, Equipment`).
+- When user intent specifies equipment/variant, explicit `Exercise Name, Equipment` is an exact match in `references/exercise-list.md`.
+- When user intent does not specify equipment, alias-only `Exercise Name` is an exact bare-name match in `references/exercise-list.md`.
+- If exercise is not in built-in list, output remains valid and mentions manual add path in Liftosaur.
+- In full mode output, template lines (`used: none`) are placed after `## Day 1` (or another explicit day), never directly under `# Week N`.

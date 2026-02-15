@@ -36,10 +36,10 @@ Use:
 Always gate update logic by `setIndex` to avoid accidental repeated rewrites.
 
 ```text
-Bench Press 3x8 update: custom() {~
+Bench Press / 3x8 / update: custom() {~
   if (setIndex == 1 && completedReps[1] >= reps[1]) {
     numberOfSets = 4
-    sets(2, 4, floor(reps[1] / 2), floor(reps[1] / 2), 0, weights[1], 0, 0)
+    sets(2, 4, floor(reps[1] / 2), floor(reps[1] / 2), 0, weights[1], 0, 0, 0)
   }
 ~}
 ```

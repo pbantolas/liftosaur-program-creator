@@ -2,33 +2,20 @@
 
 ## Source of truth
 
-Use `resources/exercise-list.txt` as the canonical reference for exercise names and equipment pairs.
+Use `references/exercise-list.md` as the built-in exercise list.
 
-Canonical format in the list is:
+Entries may be either:
 
-`Exercise Name, Equipment`
+- `Exercise Name`
+- `Exercise Name, Equipment`
 
-Example canonical entries:
+## Resolver
 
-- `Bench Press, Barbell`
-- `Overhead Press, Dumbbell`
-- `Romanian Deadlift, Barbell`
+1. If user intent specifies equipment/variant, use `Exercise Name, Equipment` and require an exact match in `references/exercise-list.md`.
+2. Otherwise, use alias-only `Exercise Name` and require an exact bare-name match in `references/exercise-list.md`.
+3. Preserve existing style when editing unless user requests a change.
 
-## How to apply in generated lines
+## Fallback
 
-- If the requested exercise exists in `resources/exercise-list.txt`, use the canonical name/equipment pair.
-- In Liftoscript lines, render equipment using normal exercise syntax:
-  - `Bench Press, Barbell / 3x8 / progress: dp(2.5kg, 8, 12)`
-
-## Fallback when exercise is not listed
-
-- Missing from `resources/exercise-list.txt` does not block output.
-- Use the requested/custom exercise name and continue generating valid Liftoscript.
+- If a requested exercise is not in `references/exercise-list.md`, keep the requested name and continue generating valid Liftoscript.
 - Add a short note that custom exercises can be added manually in Liftosaur.
-
-## Fast check workflow
-
-1. Try exact match in `resources/exercise-list.txt`.
-2. If no exact match, try closest canonical variant by equipment.
-3. If still no match, keep user name and proceed.
-4. Mention manual add path for custom exercise names.

@@ -104,6 +104,24 @@ Update context uses only `[set]` for set-level targets.
 - Prompted state: `name+: default`.
 - Temporary scratch vars: `var.name`.
 
+## Debug prints
+
+- Use `print(...)` inside `progress: custom()` or `update: custom()` to inspect script values while tracing behavior.
+- `print` accepts numbers, weights, and percentages (no strings).
+- Print key branch signals and computed intermediates before assignments when debugging.
+
+Example:
+
+```text
+Bench Press / 3x8 / progress: custom() {~
+  var.half = floor(completedReps[1] / 2)
+  print(setVariationIndex, completedReps[1], var.half, weights[1])
+  if (completedReps >= reps) {
+    weights += 2.5kg
+  }
+~}
+```
+
 ## Debug checklist
 
 1. Confirm context (`progress` vs `update`).
