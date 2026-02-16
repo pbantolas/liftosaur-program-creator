@@ -1,6 +1,6 @@
 # Liftosaur Program Creator
 
-![Liftosaur Program Creator Logo](assets/logo.png "Liftosaur Program Creator")
+<img src="assets/logo.png" alt="Liftosaur Program Creator Logo" width="300">
 
 An AI agent skill that teaches language models how to write and debug Liftoscript programs for Liftosaur. Stop wrestling with syntax errors and progression logic. Just describe what you want, and get working code.
 
