@@ -67,3 +67,4 @@ description: Creates and edits Liftosaur workout programs using Liftoscript. Use
 - When user intent does not specify equipment, alias-only `Exercise Name` is an exact bare-name match in `references/exercise-list.md`.
 - If exercise is not in built-in list, output remains valid and mentions manual add path in Liftosaur.
 - In full mode output, template lines (`used: none`) are placed after `## Day 1` (or another explicit day), never directly under `# Week N`.
+- All exercise line fields (`used:`, `progress:`, `update:`, `warmup:`, set expressions, timers) belong on one line separated by `/`; use `\` only when a script body `{~ ... ~}` spans multiple lines.
